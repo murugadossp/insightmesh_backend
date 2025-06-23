@@ -1,7 +1,9 @@
 fastapi
-uvicorn
+uvicorn[standard]
 pydantic
 pandas
 python-multipart
-google-generativeai
 python-dotenv
+google-adk>=0.1.6
+litellm>=1.25.0
+google-generativeai>=0.8.5

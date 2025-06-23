@@ -1,0 +1,1 @@
+ANALYZER_PROMPT = "Perform basic statistical summary of numerical data."

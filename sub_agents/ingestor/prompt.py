@@ -1,0 +1,1 @@
+INGESTOR_PROMPT = "Load a CSV file, extract basic information like columns, rows, and structure."

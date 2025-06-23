@@ -1,0 +1,1 @@
+SUMMARIZER_PROMPT = "Summarize key numeric findings using natural language."
