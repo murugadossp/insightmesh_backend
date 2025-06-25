@@ -1,0 +1,51 @@
+employee_id,department,job_level,age,gender,years_at_company,manager_id,salary_range,work_arrangement,location,overall_satisfaction,work_life_balance,compensation_satisfaction,career_growth,relationship_with_manager,team_collaboration,workload_satisfaction,recognition,company_culture,training_opportunities,benefits_satisfaction,job_security,physical_workspace,tools_and_resources,communication,decision_making,innovation,diversity_inclusion,performance_review_score,promotion_last_2_years,sick_days_taken,vacation_days_taken,overtime_hours,training_hours,productivity_score,engagement_score,retention_risk,high_performer,mentor_program,survey_date
+E001,Engineering,Senior,34,Male,5,M023,100000-125000,Hybrid,Headquarters,4.2,3.8,4.0,4.5,4.7,4.3,3.5,4.1,4.2,3.9,4.3,4.6,4.2,4.0,3.8,3.7,4.5,4.4,4.6,Yes,3,15,45,32,87,4.3,Low,Yes,Yes,2025-01-15
+E002,Marketing,Mid-level,29,Female,3,M045,75000-100000,Remote,Home Office,3.9,4.5,3.5,3.7,3.2,4.1,4.3,3.6,4.0,3.5,4.2,3.8,4.5,3.9,3.4,3.5,3.9,4.3,4.1,No,5,18,20,24,82,3.8,Medium,No,No,2025-01-15
+E003,Sales,Senior,42,Male,8,M012,125000-150000,Office,Headquarters,4.5,3.9,4.7,4.3,4.5,4.2,4.0,4.6,4.3,4.1,4.5,4.7,4.3,4.5,4.2,4.3,4.1,4.4,4.8,Yes,2,20,55,28,91,4.6,Low,Yes,Yes,2025-01-16
+E004,HR,Mid-level,36,Female,4,M056,75000-100000,Hybrid,Headquarters,4.1,4.3,3.8,3.9,4.4,4.5,4.2,4.0,4.5,4.3,4.2,4.1,4.4,4.2,4.6,4.0,3.8,4.7,4.3,No,4,22,15,40,85,4.2,Low,No,Yes,2025-01-16
+E005,Finance,Senior,45,Female,10,M034,125000-150000,Office,Headquarters,4.3,3.7,4.5,4.1,3.9,4.0,3.8,4.2,4.1,3.8,4.4,4.5,4.1,4.3,4.0,4.2,3.7,4.2,4.5,Yes,1,17,60,22,88,4.4,Low,Yes,No,2025-01-16
+E006,Engineering,Junior,26,Male,1,M023,50000-75000,Hybrid,Headquarters,3.7,3.5,3.3,4.0,3.8,4.1,3.6,3.4,3.9,4.2,3.7,3.5,4.0,3.8,3.6,3.3,4.3,4.1,3.9,No,6,12,30,45,79,3.6,Medium,No,Yes,2025-01-17
+E007,Customer Support,Mid-level,31,Female,3,M078,50000-75000,Remote,Home Office,3.5,4.2,3.1,3.3,3.0,3.8,3.4,3.2,3.7,3.4,3.9,3.6,4.3,3.5,3.3,3.1,3.4,4.0,3.7,No,8,14,10,20,75,3.4,High,No,No,2025-01-17
+E008,Product,Senior,39,Male,7,M045,100000-125000,Hybrid,Headquarters,4.4,4.0,4.3,4.6,4.3,4.5,4.1,4.4,4.5,4.2,4.3,4.4,4.2,4.5,4.3,4.4,4.7,4.5,4.7,Yes,2,19,40,35,90,4.5,Low,Yes,Yes,2025-01-17
+E009,Marketing,Junior,24,Female,1,M045,50000-75000,Office,Headquarters,3.6,3.4,3.2,3.8,3.5,3.9,3.7,3.3,3.8,3.7,3.6,3.4,3.9,3.6,3.4,3.2,3.8,4.0,3.8,No,5,10,25,30,77,3.5,Medium,No,No,2025-01-18
+E010,Sales,Mid-level,33,Male,4,M012,75000-100000,Hybrid,Headquarters,4.0,3.8,3.9,4.2,4.1,4.3,3.9,4.0,4.1,3.8,4.0,4.2,4.0,4.1,3.9,3.8,4.0,4.2,4.2,No,3,16,50,25,84,4.0,Medium,Yes,No,2025-01-18
+E011,Engineering,Senior,41,Male,9,M023,125000-150000,Remote,Home Office,4.6,4.8,4.4,4.5,4.2,4.0,4.7,4.3,4.2,4.0,4.5,4.6,4.8,4.4,4.1,4.3,4.6,4.3,4.7,Yes,1,21,35,38,92,4.7,Low,Yes,Yes,2025-01-18
+E012,Finance,Junior,27,Female,2,M034,50000-75000,Office,Headquarters,3.8,3.6,3.4,3.9,4.0,3.8,3.7,3.5,3.9,3.6,3.8,3.7,3.8,3.7,3.9,3.5,3.6,4.0,3.9,No,4,13,20,28,80,3.7,Medium,No,No,2025-01-19
+E013,HR,Senior,44,Female,12,M056,100000-125000,Hybrid,Headquarters,4.5,4.3,4.2,4.4,4.6,4.7,4.3,4.5,4.6,4.4,4.5,4.4,4.3,4.2,4.7,4.5,4.2,4.8,4.6,Yes,2,23,25,45,89,4.6,Low,Yes,Yes,2025-01-19
+E014,Product,Mid-level,32,Male,5,M045,75000-100000,Remote,Home Office,4.2,4.5,3.9,4.3,4.0,4.2,4.4,4.1,4.0,4.2,4.1,4.0,4.6,4.3,3.9,4.0,4.4,4.2,4.4,Yes,3,17,15,32,86,4.3,Low,Yes,No,2025-01-19
+E015,Customer Support,Junior,25,Female,1,M078,25000-50000,Office,Headquarters,3.3,3.1,2.9,3.5,3.2,3.6,3.0,3.1,3.5,3.3,3.4,3.2,3.7,3.3,3.5,3.0,3.2,3.8,3.5,No,7,8,5,15,72,3.2,High,No,No,2025-01-20
+E016,Engineering,Mid-level,30,Male,3,M023,75000-100000,Hybrid,Headquarters,4.1,3.9,3.8,4.3,4.2,4.4,3.8,3.9,4.2,4.1,4.0,4.1,4.0,4.2,3.9,3.8,4.3,4.1,4.3,No,4,15,40,30,85,4.1,Medium,Yes,Yes,2025-01-20
+E017,Sales,Senior,47,Female,15,M012,125000-150000,Office,Headquarters,4.7,4.2,4.8,4.5,4.6,4.4,4.3,4.7,4.5,4.3,4.6,4.8,4.4,4.6,4.5,4.7,4.3,4.5,4.9,Yes,1,22,65,25,93,4.8,Low,Yes,Yes,2025-01-20
+E018,Marketing,Senior,38,Female,7,M045,100000-125000,Remote,Home Office,4.3,4.6,4.1,4.4,4.0,4.3,4.5,4.2,4.1,4.0,4.3,4.2,4.7,4.4,4.0,4.1,4.3,4.4,4.5,Yes,2,20,25,35,87,4.4,Low,Yes,No,2025-01-21
+E019,Finance,Mid-level,34,Male,5,M034,75000-100000,Hybrid,Headquarters,4.0,3.8,3.9,4.1,3.9,4.0,3.7,3.8,4.0,3.7,4.1,4.2,3.9,4.0,3.8,3.9,3.8,4.1,4.2,No,3,16,45,26,83,4.0,Medium,No,No,2025-01-21
+E020,HR,Junior,28,Female,2,M056,50000-75000,Office,Headquarters,3.7,3.6,3.4,3.8,4.1,4.2,3.8,3.6,4.0,3.9,3.8,3.7,3.9,3.7,4.0,3.6,3.5,4.2,3.9,No,5,14,20,35,79,3.7,Medium,No,Yes,2025-01-21
+E021,Engineering,Senior,43,Male,10,M023,125000-150000,Hybrid,Headquarters,4.6,4.1,4.5,4.7,4.4,4.5,4.2,4.5,4.4,4.3,4.5,4.7,4.3,4.6,4.2,4.4,4.8,4.5,4.8,Yes,1,19,55,40,92,4.7,Low,Yes,Yes,2025-01-22
+E022,Customer Support,Mid-level,32,Female,4,M078,50000-75000,Remote,Home Office,3.6,4.0,3.3,3.5,3.3,3.9,3.8,3.4,3.8,3.5,3.9,3.7,4.2,3.6,3.5,3.3,3.6,4.1,3.8,No,6,15,15,22,76,3.5,Medium,No,No,2025-01-22
+E023,Product,Senior,40,Male,8,M045,100000-125000,Office,Headquarters,4.4,3.9,4.3,4.5,4.2,4.4,4.0,4.3,4.3,4.1,4.2,4.5,4.1,4.4,4.2,4.3,4.5,4.3,4.6,Yes,2,18,45,35,89,4.5,Low,Yes,No,2025-01-22
+E024,Marketing,Junior,26,Male,1,M045,50000-75000,Hybrid,Headquarters,3.5,3.4,3.2,3.7,3.6,3.8,3.5,3.3,3.7,3.8,3.5,3.4,3.8,3.5,3.4,3.2,3.7,3.9,3.7,No,5,11,30,28,76,3.4,Medium,No,No,2025-01-23
+E025,Sales,Mid-level,35,Female,5,M012,75000-100000,Remote,Home Office,4.1,4.3,3.8,4.0,3.9,4.1,4.2,3.9,4.0,3.7,4.1,4.0,4.4,4.0,3.8,3.7,3.9,4.2,4.3,No,3,17,40,26,84,4.0,Medium,Yes,No,2025-01-23
+E026,Finance,Senior,46,Male,13,M034,125000-150000,Office,Headquarters,4.5,4.0,4.6,4.3,4.2,4.1,3.9,4.4,4.2,4.0,4.5,4.7,4.2,4.5,4.1,4.4,4.0,4.3,4.7,Yes,1,20,60,24,90,4.6,Low,Yes,Yes,2025-01-23
+E027,Engineering,Junior,27,Female,2,M023,50000-75000,Hybrid,Headquarters,3.8,3.7,3.5,4.1,3.9,4.2,3.7,3.6,4.0,4.3,3.8,3.6,3.9,3.8,3.7,3.5,4.2,4.0,4.0,No,4,13,35,42,81,3.8,Medium,No,Yes,2025-01-24
+E028,HR,Senior,42,Female,9,M056,100000-125000,Remote,Home Office,4.4,4.5,4.1,4.3,4.5,4.6,4.4,4.3,4.5,4.2,4.4,4.3,4.6,4.1,4.5,4.3,4.0,4.7,4.5,Yes,2,21,20,38,88,4.5,Low,Yes,Yes,2025-01-24
+E029,Product,Mid-level,33,Male,4,M045,75000-100000,Office,Headquarters,4.0,3.7,3.8,4.2,4.0,4.2,3.8,3.9,4.1,4.0,3.9,4.1,3.8,4.0,3.9,4.0,4.3,4.0,4.2,No,3,16,35,30,84,4.0,Medium,Yes,No,2025-01-24
+E030,Customer Support,Junior,24,Female,1,M078,25000-50000,Hybrid,Headquarters,3.2,3.0,2.8,3.4,3.1,3.5,2.9,3.0,3.4,3.2,3.3,3.1,3.6,3.2,3.4,2.9,3.1,3.7,3.4,No,8,7,10,18,70,3.1,High,No,No,2025-01-25
+E031,Engineering,Senior,39,Male,7,M023,100000-125000,Remote,Home Office,4.5,4.7,4.3,4.6,4.1,4.0,4.6,4.2,4.1,4.0,4.4,4.5,4.7,4.3,4.0,4.2,4.5,4.2,4.6,Yes,1,19,30,36,91,4.6,Low,Yes,Yes,2025-01-25
+E032,Marketing,Mid-level,31,Female,4,M045,75000-100000,Office,Headquarters,3.9,3.7,3.7,4.0,3.8,4.0,3.6,3.7,3.9,3.8,3.9,3.8,3.7,3.8,3.7,3.6,3.9,4.0,4.1,No,4,15,30,28,82,3.9,Medium,No,No,2025-01-25
+E033,Sales,Senior,44,Male,11,M012,125000-150000,Hybrid,Headquarters,4.6,4.3,4.7,4.4,4.5,4.3,4.2,4.6,4.4,4.2,4.5,4.7,4.3,4.5,4.3,4.5,4.2,4.4,4.8,Yes,1,21,60,30,92,4.7,Low,Yes,Yes,2025-01-26
+E034,Finance,Junior,29,Female,2,M034,50000-75000,Remote,Home Office,3.7,3.9,3.4,3.8,3.6,3.7,3.8,3.5,3.7,3.5,3.8,3.6,4.0,3.7,3.6,3.4,3.7,3.9,3.9,No,5,14,25,25,78,3.6,Medium,No,No,2025-01-26
+E035,HR,Mid-level,35,Male,5,M056,75000-100000,Office,Headquarters,4.2,4.0,3.9,4.1,4.3,4.4,4.1,4.0,4.3,4.1,4.2,4.0,4.0,3.9,4.3,4.1,3.9,4.5,4.3,No,3,17,25,32,85,4.2,Low,No,Yes,2025-01-26
+E036,Engineering,Mid-level,32,Female,3,M023,75000-100000,Hybrid,Headquarters,4.0,3.8,3.7,4.2,4.1,4.3,3.7,3.8,4.1,4.0,3.9,4.0,3.9,4.1,3.8,3.7,4.2,4.0,4.2,No,4,15,35,34,84,4.0,Medium,Yes,No,2025-01-27
+E037,Product,Senior,41,Male,9,M045,125000-150000,Remote,Home Office,4.7,4.8,4.5,4.6,4.3,4.2,4.7,4.4,4.3,4.1,4.6,4.7,4.8,4.5,4.2,4.4,4.7,4.4,4.8,Yes,1,22,25,40,93,4.8,Low,Yes,Yes,2025-01-27
+E038,Customer Support,Mid-level,33,Female,4,M078,50000-75000,Office,Headquarters,3.7,3.5,3.4,3.6,3.5,4.0,3.6,3.5,3.9,3.6,3.8,3.7,3.6,3.7,3.8,3.4,3.5,4.0,3.9,No,5,14,20,24,77,3.6,Medium,No,No,2025-01-27
+E039,Marketing,Senior,37,Female,6,M045,100000-125000,Hybrid,Headquarters,4.2,4.0,4.0,4.3,4.1,4.2,3.9,4.1,4.2,3.9,4.2,4.3,4.0,4.2,4.0,4.1,4.2,4.3,4.4,Yes,2,18,35,30,86,4.3,Low,Yes,No,2025-01-28
+E040,Sales,Junior,26,Male,1,M012,50000-75000,Remote,Home Office,3.6,3.8,3.3,3.7,3.5,3.7,3.7,3.4,3.6,3.5,3.7,3.5,3.9,3.6,3.4,3.3,3.6,3.8,3.8,No,5,12,30,25,77,3.5,Medium,No,No,2025-01-28
+E041,Finance,Senior,45,Female,12,M034,125000-150000,Office,Headquarters,4.4,3.9,4.5,4.2,4.1,4.0,3.8,4.3,4.1,3.9,4.4,4.6,4.0,4.4,4.0,4.3,3.9,4.2,4.6,Yes,1,19,55,26,89,4.5,Low,Yes,No,2025-01-28
+E042,Engineering,Junior,28,Male,2,M023,50000-75000,Hybrid,Headquarters,3.9,3.8,3.6,4.2,4.0,4.3,3.8,3.7,4.1,4.4,3.9,3.7,4.0,3.9,3.8,3.6,4.3,4.1,4.1,No,3,14,40,44,82,3.9,Medium,No,Yes,2025-01-29
+E043,HR,Senior,43,Female,10,M056,100000-125000,Remote,Home Office,4.5,4.6,4.2,4.4,4.6,4.7,4.5,4.4,4.6,4.3,4.5,4.4,4.7,4.2,4.6,4.4,4.1,4.8,4.6,Yes,2,22,15,40,89,4.6,Low,Yes,Yes,2025-01-29
+E044,Product,Mid-level,34,Male,5,M045,75000-100000,Office,Headquarters,4.1,3.8,3.9,4.3,4.1,4.3,3.9,4.0,4.2,4.1,4.0,4.2,3.9,4.1,4.0,4.1,4.4,4.1,4.3,No,3,17,40,32,85,4.1,Medium,Yes,No,2025-01-29
+E045,Customer Support,Junior,25,Female,1,M078,25000-50000,Hybrid,Headquarters,3.4,3.2,3.0,3.6,3.3,3.7,3.1,3.2,3.6,3.4,3.5,3.3,3.8,3.4,3.6,3.1,3.3,3.9,3.6,No,7,9,15,20,73,3.3,High,No,No,2025-01-30
+E046,Engineering,Senior,40,Male,8,M023,125000-150000,Remote,Home Office,4.6,4.7,4.4,4.7,4.3,4.1,4.6,4.3,4.2,4.1,4.5,4.6,4.7,4.4,4.1,4.3,4.7,4.3,4.7,Yes,1,20,35,38,92,4.7,Low,Yes,Yes,2025-01-30
+E047,Marketing,Mid-level,32,Female,3,M045,75000-100000,Office,Headquarters,3.8,3.6,3.6,3.9,3.7,3.9,3.5,3.6,3.8,3.7,3.8,3.7,3.6,3.7,3.6,3.5,3.8,3.9,4.0,No,4,14,25,26,81,3.8,Medium,No,No,2025-01-30
+E048,Sales,Senior,46,Male,14,M012,125000-150000,Hybrid,Headquarters,4.7,4.4,4.8,4.5,4.6,4.4,4.3,4.7,4.5,4.3,4.6,4.8,4.4,4.6,4.4,4.6,4.3,4.5,4.9,Yes,1,23,65,28,93,4.8,Low,Yes,Yes,2025-01-31
+E049,Finance,Junior,30,Female,2,M034,50000-75000,Remote,Home Office,3.6,3.8,3.3,3.7,3.5,3.6,3.7,3.4,3.6,3.4,3.7,3.5,3.9,3.6,3.5,3.3,3.6,3.8,3.8,No,5,13,20,24,77,3.5,Medium,No,No,2025-01-31
+E050,HR,Mid-level,36,Male,6,M056,75000-100000,Office,Headquarters,4.3,4.1,4.0,4.2,4.4,4.5,4.2,4.1,4.4,4.2,4.3,4.1,4.1,4.0,4.4,4.2,4.0,4.6,4.4,No,2,18,30,35,86,4.3,Low,No,Yes,2025-01-31

@@ -1,0 +1,51 @@
+campaign_id,campaign_name,start_date,end_date,channel,target_audience,budget,spend,impressions,clicks,conversions,conversion_rate,cost_per_click,cost_per_conversion,revenue,roi,region,product_category,creative_type,device_type,landing_page_conversion,email_open_rate,email_click_rate,social_shares,video_completion_rate
+MC001,Summer Sale 2025,2025-06-01,2025-06-15,Email,Existing Customers,15000.00,14500.00,250000,12500,625,0.05,1.16,23.20,45000.00,2.10,North America,Clothing,Promotional,All,0.08,0.22,0.05,850,
+MC002,Back to School,2025-07-15,2025-08-15,Social Media,Parents,25000.00,24800.00,750000,37500,1125,0.03,0.66,22.04,78750.00,2.17,North America,School Supplies,Lifestyle,Mobile,0.06,,,2250,0.45
+MC003,Fall Collection Launch,2025-09-01,2025-09-30,Display Ads,Fashion Enthusiasts,30000.00,29500.00,1200000,24000,720,0.03,1.23,40.97,57600.00,0.95,Global,Apparel,Product Showcase,Desktop,0.05,,,1100,0.38
+MC004,Holiday Special,2025-11-20,2025-12-25,Multi-channel,All Segments,50000.00,49800.00,2000000,60000,3000,0.05,0.83,16.60,240000.00,3.82,Global,Multiple,Seasonal,All,0.09,0.28,0.07,4500,0.52
+MC005,New Year Promotion,2025-12-26,2026-01-15,Email,Loyalty Program,20000.00,19500.00,300000,15000,900,0.06,1.30,21.67,81000.00,3.15,Global,Multiple,Promotional,All,0.10,0.32,0.08,1200,
+MC006,Valentine's Day Special,2025-02-01,2025-02-14,Social Media,Adults 25-40,18000.00,17800.00,600000,30000,1200,0.04,0.59,14.83,96000.00,4.39,Global,Gifts,Emotional,Mobile,0.07,,,2800,0.48
+MC007,Spring Collection,2025-03-01,2025-03-31,Display Ads,Fashion Enthusiasts,28000.00,27500.00,950000,19000,570,0.03,1.45,48.25,51300.00,0.87,Global,Apparel,Product Showcase,Desktop,0.04,,,950,0.35
+MC008,Easter Promotion,2025-03-15,2025-04-05,Email,Families,12000.00,11800.00,180000,9000,540,0.06,1.31,21.85,43200.00,2.66,North America,Food & Gifts,Seasonal,All,0.08,0.25,0.06,720,
+MC009,Mother's Day Campaign,2025-04-20,2025-05-10,Multi-channel,Adults 25-55,22000.00,21800.00,800000,32000,1280,0.04,0.68,17.03,102400.00,3.70,North America,Gifts,Emotional,All,0.07,0.27,0.06,2100,0.44
+MC010,Memorial Day Sale,2025-05-20,2025-05-31,Social Media,All Segments,15000.00,14800.00,550000,27500,825,0.03,0.54,17.94,66000.00,3.46,North America,Multiple,Promotional,Mobile,0.06,,,1850,0.42
+MC011,Tech Gadgets Promo,2025-01-10,2025-01-31,Search Ads,Tech Enthusiasts,35000.00,34800.00,450000,22500,675,0.03,1.55,51.56,101250.00,1.91,Global,Electronics,Product Focused,Desktop,0.05,,,580,
+MC012,Fitness Challenge,2025-01-05,2025-02-05,Social Media,Health Enthusiasts,20000.00,19800.00,900000,45000,1350,0.03,0.44,14.67,67500.00,2.41,Global,Fitness Equipment,Lifestyle,Mobile,0.06,,,3200,0.47
+MC013,Home Office Essentials,2025-02-10,2025-03-10,Display Ads,Remote Workers,25000.00,24500.00,750000,15000,450,0.03,1.63,54.44,63000.00,1.57,Global,Office Supplies,Solution Based,Desktop,0.04,,,620,0.32
+MC014,Spring Break Getaway,2025-02-15,2025-03-15,Email,Young Adults,18000.00,17500.00,220000,11000,550,0.05,1.59,31.82,77000.00,3.40,North America,Travel,Aspirational,All,0.07,0.24,0.05,980,
+MC015,Tax Season Promo,2025-03-01,2025-04-15,Search Ads,Adults 30-55,22000.00,21800.00,280000,14000,420,0.03,1.56,51.90,50400.00,1.31,North America,Financial Services,Informational,Desktop,0.05,,,320,
+MC016,Earth Day Campaign,2025-04-15,2025-04-25,Social Media,Eco-conscious,15000.00,14800.00,650000,32500,975,0.03,0.46,15.18,48750.00,2.29,Global,Eco-friendly Products,Cause Related,Mobile,0.06,,,2900,0.51
+MC017,Graduation Gifts,2025-05-01,2025-06-15,Multi-channel,Parents & Young Adults,28000.00,27500.00,900000,36000,1440,0.04,0.76,19.10,115200.00,3.19,North America,Gifts & Electronics,Celebratory,All,0.07,0.26,0.06,1850,0.43
+MC018,Summer Travel,2025-05-15,2025-07-15,Display Ads,Families & Couples,40000.00,39500.00,1500000,30000,900,0.03,1.32,43.89,135000.00,2.42,Global,Travel,Aspirational,Desktop,0.05,,,1100,0.39
+MC019,Father's Day Special,2025-06-01,2025-06-20,Email,Adults 25-55,16000.00,15800.00,210000,10500,630,0.06,1.50,25.08,50400.00,2.19,North America,Gifts,Emotional,All,0.08,0.23,0.05,780,
+MC020,Independence Day Sale,2025-06-25,2025-07-05,Social Media,All Segments,18000.00,17800.00,700000,35000,1050,0.03,0.51,16.95,84000.00,3.72,North America,Multiple,Patriotic,Mobile,0.06,,,2400,0.44
+MC021,Summer Clearance,2025-07-20,2025-08-10,Email,Price Sensitive,14000.00,13800.00,190000,9500,570,0.06,1.45,24.21,45600.00,2.30,North America,Apparel,Promotional,All,0.08,0.21,0.05,620,
+MC022,Back to College,2025-08-01,2025-08-31,Multi-channel,College Students,30000.00,29500.00,1100000,44000,1320,0.03,0.67,22.35,105600.00,2.58,North America,Electronics & Home,Educational,All,0.06,0.25,0.05,1950,0.41
+MC023,Labor Day Weekend,2025-08-25,2025-09-05,Social Media,All Segments,16000.00,15800.00,600000,30000,900,0.03,0.53,17.56,72000.00,3.56,North America,Multiple,Promotional,Mobile,0.06,,,1800,0.43
+MC024,Fall Home Makeover,2025-09-10,2025-10-10,Display Ads,Homeowners,32000.00,31500.00,950000,19000,570,0.03,1.66,55.26,85500.00,1.71,North America,Home Goods,Inspirational,Desktop,0.04,,,750,0.36
+MC025,Halloween Special,2025-10-01,2025-10-31,Multi-channel,Families,25000.00,24500.00,850000,34000,1360,0.04,0.72,18.01,95200.00,2.89,North America,Seasonal Items,Seasonal,All,0.07,0.26,0.06,2200,0.46
+MC026,Black Friday Preview,2025-11-01,2025-11-20,Email,All Segments,20000.00,19500.00,280000,14000,840,0.06,1.39,23.21,126000.00,5.46,Global,Multiple,Promotional,All,0.09,0.29,0.07,1100,
+MC027,Black Friday & Cyber Monday,2025-11-25,2025-12-02,Multi-channel,All Segments,60000.00,59500.00,2500000,75000,3750,0.05,0.79,15.87,375000.00,5.30,Global,Multiple,Promotional,All,0.10,0.31,0.08,5500,0.54
+MC028,Last Minute Gifts,2025-12-15,2025-12-24,Search Ads,Last-minute Shoppers,25000.00,24800.00,320000,16000,800,0.05,1.55,31.00,96000.00,2.87,Global,Gifts,Urgent,Desktop,0.08,,,680,
+MC029,Winter Clearance,2026-01-05,2026-01-31,Email,Price Sensitive,18000.00,17500.00,240000,12000,720,0.06,1.46,24.31,57600.00,2.29,Global,Apparel,Promotional,All,0.08,0.22,0.05,580,
+MC030,Super Bowl Campaign,2025-01-25,2025-02-05,Social Media,Sports Fans,30000.00,29800.00,1200000,60000,1800,0.03,0.50,16.56,144000.00,3.83,North America,Electronics & Food,Event Based,Mobile,0.07,,,4200,0.58
+MC031,Luxury Collection,2025-02-10,2025-03-10,Display Ads,Affluent Customers,45000.00,44500.00,800000,16000,320,0.02,2.78,139.06,160000.00,2.60,Global,Luxury Goods,Aspirational,Desktop,0.04,,,420,0.37
+MC032,Spring Cleaning,2025-03-15,2025-04-15,Email,Homeowners,16000.00,15800.00,210000,10500,630,0.06,1.50,25.08,50400.00,2.19,North America,Home Goods,Solution Based,All,0.08,0.24,0.05,580,
+MC033,Tax Refund Splurge,2025-04-01,2025-04-30,Search Ads,Tax Refund Recipients,28000.00,27500.00,350000,17500,525,0.03,1.57,52.38,78750.00,1.86,North America,Electronics & Travel,Indulgent,Desktop,0.05,,,480,
+MC034,Cinco de Mayo,2025-05-01,2025-05-05,Social Media,All Segments,10000.00,9800.00,450000,22500,675,0.03,0.44,14.52,40500.00,3.13,North America,Food & Beverages,Cultural,Mobile,0.06,,,1800,0.45
+MC035,Summer Essentials,2025-05-15,2025-06-30,Multi-channel,All Segments,35000.00,34500.00,1300000,52000,1560,0.03,0.66,22.12,124800.00,2.62,Global,Seasonal Items,Seasonal,All,0.06,0.25,0.05,2100,0.42
+MC036,Wedding Season,2025-06-01,2025-08-31,Display Ads,Engaged Couples,38000.00,37500.00,1100000,22000,660,0.03,1.70,56.82,132000.00,2.52,Global,Wedding Products,Emotional,Desktop,0.05,,,850,0.38
+MC037,4th of July Weekend,2025-07-01,2025-07-05,Email,All Segments,12000.00,11800.00,160000,8000,480,0.06,1.48,24.58,38400.00,2.25,North America,Multiple,Patriotic,All,0.08,0.22,0.05,620,
+MC038,Summer Games Special,2025-07-15,2025-08-15,Social Media,Sports Fans,25000.00,24800.00,950000,47500,1425,0.03,0.52,17.40,85500.00,2.45,Global,Sporting Goods,Event Based,Mobile,0.06,,,3100,0.49
+MC039,Back to School Tech,2025-08-01,2025-08-31,Search Ads,Students & Parents,32000.00,31500.00,400000,20000,600,0.03,1.58,52.50,90000.00,1.86,North America,Electronics,Educational,Desktop,0.05,,,520,
+MC040,Fall Fashion Preview,2025-08-15,2025-09-15,Multi-channel,Fashion Enthusiasts,30000.00,29500.00,1000000,40000,1200,0.03,0.74,24.58,108000.00,2.66,Global,Apparel,Product Showcase,All,0.06,0.26,0.05,1800,0.41
+MC041,Hispanic Heritage Month,2025-09-15,2025-10-15,Social Media,Hispanic Market,18000.00,17800.00,700000,35000,1050,0.03,0.51,16.95,63000.00,2.54,North America,Multiple,Cultural,Mobile,0.06,,,2200,0.47
+MC042,Fall Home Decor,2025-09-20,2025-10-20,Display Ads,Homeowners,26000.00,25500.00,850000,17000,510,0.03,1.50,50.00,76500.00,2.00,North America,Home Goods,Seasonal,Desktop,0.04,,,680,0.34
+MC043,Breast Cancer Awareness,2025-10-01,2025-10-31,Email,Women 25-65,15000.00,14800.00,200000,10000,600,0.06,1.48,24.67,36000.00,1.43,Global,Health Products,Cause Related,All,0.08,0.27,0.06,950,
+MC044,Pre-Holiday Preview,2025-10-15,2025-11-15,Multi-channel,Early Shoppers,28000.00,27500.00,950000,38000,1140,0.03,0.72,24.12,91200.00,2.32,Global,Multiple,Promotional,All,0.06,0.25,0.05,1650,0.40
+MC045,Veterans Day Special,2025-11-08,2025-11-12,Social Media,Military & Families,12000.00,11800.00,500000,25000,750,0.03,0.47,15.73,45000.00,2.81,North America,Multiple,Patriotic,Mobile,0.06,,,1500,0.43
+MC046,Holiday Gift Guide,2025-11-15,2025-12-15,Display Ads,All Segments,35000.00,34500.00,1200000,24000,720,0.03,1.44,47.92,108000.00,2.13,Global,Gifts,Seasonal,Desktop,0.05,,,920,0.38
+MC047,Holiday Shipping Deadline,2025-12-10,2025-12-20,Email,Procrastinators,14000.00,13800.00,180000,9000,540,0.06,1.53,25.56,64800.00,3.70,Global,Multiple,Urgent,All,0.08,0.28,0.06,680,
+MC048,After Christmas Sale,2025-12-26,2026-01-05,Multi-channel,Deal Seekers,22000.00,21800.00,800000,32000,1280,0.04,0.68,17.03,89600.00,3.11,Global,Multiple,Promotional,All,0.07,0.23,0.05,1400,0.39
+MC049,New Year New You,2026-01-01,2026-01-31,Social Media,Health Enthusiasts,24000.00,23800.00,950000,47500,1425,0.03,0.50,16.70,85500.00,2.59,Global,Fitness & Wellness,Motivational,Mobile,0.06,,,2800,0.46
+MC050,Winter Vacation,2025-01-15,2025-02-28,Display Ads,Travelers,42000.00,41500.00,1300000,26000,780,0.03,1.60,53.21,156000.00,2.76,Global,Travel,Aspirational,Desktop,0.05,,,950,0.40

@@ -32,8 +32,8 @@ graph LR
 ### System Components
 
 ```
-📦 InsightMesh Backend
-├── 🤖 Google ADK Agents
+📦 InsightMesh
+├── 🤖 Backend (Google ADK Agents)
 │   ├── 📥 Ingestor Agent - CSV loading & parsing
 │   ├── 🧹 Cleaner Agent - Data quality analysis
 │   ├── 📊 Analyzer Agent - Statistical analysis
@@ -41,7 +41,16 @@ graph LR
 ├── 🚀 FastAPI Server - RESTful API endpoints
 ├── 📄 HTML Generator - Professional report creation
 ├── 🗄️ Report Storage - Persistent report management
-└── 📡 Streamlit Integration - Dashboard-ready responses
+├── 📡 Streamlit Frontend - Interactive dashboard
+│   ├── 📊 Dashboard - Main analysis interface
+│   ├── 📈 Analytics - Advanced statistical analysis
+│   ├── 📄 Reports - Report management
+│   └── ⚙️ Monitor - System health monitoring
+└── 📁 Sample Datasets - Diverse data for demonstration
+    ├── 💰 Sales Data - Retail transactions
+    ├── 👥 Customer Analytics - Behavior metrics
+    ├── 📊 Financial Performance - Business metrics
+    └── 📱 Marketing Campaigns - Campaign analysis
 ```
 
 ## 🚀 Quick Start
@@ -52,9 +61,10 @@ graph LR
 # Python 3.8+
 # Google ADK Framework
 # FastAPI & dependencies
+# Streamlit (for frontend)
 ```
 
-### Installation
+### Backend Installation
 
 ```bash
 # Clone the repository
@@ -71,6 +81,21 @@ export GOOGLE_API_KEY="your-gemini-api-key"
 python main.py
 # or
 uvicorn main:app --reload --host 0.0.0.0 --port 8000
+```
+
+### Frontend Installation
+
+```bash
+# Navigate to the frontend directory
+cd frontend
+
+# Install frontend dependencies
+pip install -r requirements.txt
+
+# Start the Streamlit app
+./run_app.sh
+# or
+streamlit run streamlit_app.py
 ```
 
 ### Quick Test
@@ -307,128 +332,84 @@ Content-Disposition: attachment; filename="insightmesh_report_{report_id}.html"
 }
 ```
 
-## 📊 Streamlit Frontend Integration
+## 📊 Streamlit Frontend
 
-### API Integration Pattern
+InsightMesh includes a comprehensive Streamlit frontend that provides a user-friendly interface for interacting with the backend API. The frontend is designed to showcase the full capabilities of the InsightMesh platform.
 
-```python
-import streamlit as st
-import requests
-import pandas as pd
-import plotly.express as px
+### Frontend Features
 
-# File upload
-uploaded_file = st.file_uploader("Upload CSV", type=['csv'])
+- **📊 Dashboard**: Main analysis interface with file upload, sample dataset selection, and real-time analysis progress
+- **📈 Analytics**: Advanced statistical analysis with interactive visualizations, correlation matrices, and trend analysis
+- **📄 Reports**: Report management with viewing, downloading, and comparison capabilities
+- **⚙️ Monitor**: System health monitoring with agent status, API health, and performance metrics
 
-if uploaded_file:
-    # Call InsightMesh API
-    response = requests.post(
-        "http://localhost:8000/analyze",
-        files={"file": uploaded_file}
-    )
-    
-    if response.status_code == 200:
-        data = response.json()
-        
-        # Extract data for visualization
-        insights = data["insights"]
-        data_info = insights["data_info"]
-        analysis_results = insights["analysis_results"]
-        
-        # Build dashboard components
-        st.metric("Total Rows", data_info["rows"])
-        st.metric("Total Columns", data_info["columns"])
-        
-        # Statistical visualizations
-        for column, stats in analysis_results.items():
-            if stats.get("mean"):  # Numeric column
-                st.subheader(f"📊 {column} Analysis")
-                
-                # Create metrics
-                col1, col2, col3 = st.columns(3)
-                col1.metric("Mean", f"{stats['mean']:.2f}")
-                col2.metric("Std Dev", f"{stats['std']:.2f}")
-                col3.metric("Range", f"{stats['min']:.0f} - {stats['max']:.0f}")
-                
-                # Create distribution chart
-                # (You would need the raw data for this - consider adding data preview endpoint)
-        
-        # Display LLM insights
-        st.subheader("🤖 AI-Generated Insights")
-        st.write(data["summary"])
-        
-        # Show processing pipeline
-        st.subheader("⚙️ Processing Pipeline")
-        for step in data["processing_steps"]:
-            status_icon = "✅" if step["status"] == "completed" else "❌"
-            st.write(f"{status_icon} **{step['step'].title()}**: {step['description']}")
-        
-        # Link to HTML report
-        if "html_report" in insights:
-            report_url = f"http://localhost:8000{insights['html_report']['report_url']}"
-            st.markdown(f"📄 [View Detailed HTML Report]({report_url})")
+### Frontend Architecture
+
+```
+📦 frontend/
+├── components/             # Reusable UI components
+│   ├── api_client.py       # API communication layer
+│   ├── charts.py           # Chart generation functions
+│   └── metrics.py          # Metric display components
+├── pages/                  # Multi-page app structure
+│   ├── 01_📊_Dashboard.py  # Main analysis dashboard
+│   ├── 02_📈_Analytics.py  # Advanced analytics
+│   ├── 03_📄_Reports.py    # Report management
+│   └── 04_⚙️_Monitor.py    # System monitoring
+├── utils/                  # Frontend utilities
+│   ├── data_processing.py  # Data transformation
+│   └── styling.py          # Custom CSS/styling
+├── streamlit_app.py        # Main Streamlit application
+├── requirements.txt        # Frontend dependencies
+└── run_app.sh              # Script to run the application
 ```
 
-### Dashboard Components Mapping
+### Sample Datasets
 
-| **Streamlit Component** | **API Response Field** | **Usage** |
-|------------------------|------------------------|-----------|
-| `st.metric()` | `insights.data_info.rows` | Display data size |
-| `st.plotly_chart()` | `insights.analysis_results` | Statistical charts |
-| `st.write()` | `summary` | LLM insights |
-| `st.progress()` | `processing_steps` | Pipeline progress |
-| `st.dataframe()` | Custom endpoint needed | Data preview |
-| `st.download_button()` | `insights.html_report.report_url` | Report download |
+The platform includes a variety of sample datasets to demonstrate different analysis capabilities:
 
-### Recommended Streamlit Pages
+- **💰 Sample Sales Data**: Retail sales transactions with product, customer, and location information
+- **👥 Customer Analytics**: Customer behavior and demographic data with engagement metrics
+- **📊 Financial Performance**: Daily financial metrics by department, region, and product line
+- **📱 Marketing Campaigns**: Campaign performance metrics across different channels and audiences
+- **👨‍💼 Employee Satisfaction**: HR survey results with employee satisfaction scores
+- **📦 Product Inventory**: Product catalog with inventory levels, pricing, and supplier information
+- **🌐 Website Traffic**: Web analytics data with page views, conversion rates, and user behavior
 
-```python
-# 📊 Main Dashboard
-- File upload
-- Key metrics display
-- Statistical visualizations
-- AI insights panel
-
-# 📈 Advanced Analytics  
-- Detailed statistical analysis
-- Interactive charts
-- Correlation analysis
-- Trend identification
-
-# 📄 Reports Manager
-- List all generated reports
-- View/download reports
-- Report comparison
-- Export options
-
-# ⚙️ System Monitor
-- Agent status display
-- Processing pipeline health
-- Performance metrics
-- Error logs
-```
+These datasets can be accessed through the Dashboard page of the frontend or via the API's `/analyze/sample` endpoint.
 
 ## 🛠️ Development Setup
 
 ### Project Structure
 
 ```
-📦 insightmesh_backend/
-├── 📁 sub_agents/           # Google ADK Agents
-│   ├── 📁 ingestor/         # CSV loading agent
-│   ├── 📁 cleaner/          # Data cleaning agent  
-│   ├── 📁 analyzer/         # Statistical analysis agent
-│   └── 📁 summarizer/       # LLM summarization agent
-├── 📁 root_agent/           # Main orchestrator agent
-├── 📁 utils/                # Utilities
-│   ├── html_report_generator.py  # HTML report creation
-│   └── llm_client.py        # LLM integration
-├── 📁 schemas/              # Pydantic models
-├── 📁 output/               # Generated HTML reports
-├── 📁 sample_data/          # Test data
-├── main.py                  # FastAPI application
-├── agent_plan.py            # Agent orchestration
-└── requirements.txt         # Dependencies
+📦 insightmesh/
+├── 📁 insightmesh_backend/  # Backend components
+│   ├── 📁 sub_agents/       # Google ADK Agents
+│   │   ├── 📁 ingestor/     # CSV loading agent
+│   │   ├── 📁 cleaner/      # Data cleaning agent  
+│   │   ├── 📁 analyzer/     # Statistical analysis agent
+│   │   └── 📁 summarizer/   # LLM summarization agent
+│   ├── 📁 root_agent/       # Main orchestrator agent
+│   ├── 📁 utils/            # Utilities
+│   │   ├── html_report_generator.py  # HTML report creation
+│   │   └── llm_client.py    # LLM integration
+│   ├── 📁 schemas/          # Pydantic models
+│   ├── 📁 output/           # Generated HTML reports
+│   ├── main.py              # FastAPI application
+│   ├── agent_plan.py        # Agent orchestration
+│   └── requirements.txt     # Backend dependencies
+├── 📁 frontend/             # Streamlit frontend
+│   ├── 📁 components/       # UI components
+│   ├── 📁 pages/            # Multi-page app structure
+│   ├── 📁 utils/            # Frontend utilities
+│   ├── streamlit_app.py     # Main Streamlit app
+│   └── requirements.txt     # Frontend dependencies
+└── 📁 sample_data/          # Sample datasets
+    ├── sample_sales_data.csv
+    ├── customer_analytics.csv
+    ├── financial_performance.csv
+    └── [other sample datasets]
 ```
 
 ### Key Dependencies
